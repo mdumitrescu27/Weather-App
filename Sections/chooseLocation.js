@@ -13,6 +13,7 @@ function updateCity(city) {
   localStorage.setItem("city", city);
 
   displayCurrentWeather(city);
+  displayForecastWeather(city);
 }
 
 bucuresti.addEventListener("click", function () {

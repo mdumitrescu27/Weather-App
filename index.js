@@ -7,3 +7,4 @@ if (!currentCity) {
 updateCityDsiplay(currentCity);
 
 displayCurrentWeather(currentCity);
+displayForecastWeather(currentCity);
